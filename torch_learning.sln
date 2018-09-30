@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "torch_learning", "torch_learning\torch_learning.pyproj", "{398EAC87-C9FE-4821-92F9-B49C782D9F43}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ESPCN-SR", "ESPCN-SR\ESPCN-SR.pyproj", "{775A52EF-F239-4EA0-88C0-1D794033EAB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{398EAC87-C9FE-4821-92F9-B49C782D9F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{398EAC87-C9FE-4821-92F9-B49C782D9F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775A52EF-F239-4EA0-88C0-1D794033EAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775A52EF-F239-4EA0-88C0-1D794033EAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
