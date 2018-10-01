@@ -259,3 +259,36 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/ESPCN-SR/dataset/BSDS300
+/ESPCN-SR/out.png
+/ESPCN-SR/model_epoch_9.pth
+/ESPCN-SR/model_epoch_8.pth
+/ESPCN-SR/model_epoch_7.pth
+/ESPCN-SR/model_epoch_6.pth
+/ESPCN-SR/model_epoch_5.pth
+/ESPCN-SR/model_epoch_4.pth
+/ESPCN-SR/model_epoch_30.pth
+/ESPCN-SR/model_epoch_3.pth
+/ESPCN-SR/model_epoch_29.pth
+/ESPCN-SR/model_epoch_28.pth
+/ESPCN-SR/model_epoch_27.pth
+/ESPCN-SR/model_epoch_26.pth
+/ESPCN-SR/model_epoch_25.pth
+/ESPCN-SR/model_epoch_24.pth
+/ESPCN-SR/model_epoch_23.pth
+/ESPCN-SR/model_epoch_22.pth
+/ESPCN-SR/model_epoch_21.pth
+/ESPCN-SR/model_epoch_20.pth
+/ESPCN-SR/model_epoch_2.pth
+/ESPCN-SR/model_epoch_19.pth
+/ESPCN-SR/model_epoch_18.pth
+/ESPCN-SR/model_epoch_17.pth
+/ESPCN-SR/model_epoch_16.pth
+/ESPCN-SR/model_epoch_15.pth
+/ESPCN-SR/model_epoch_14.pth
+/ESPCN-SR/model_epoch_13.pth
+/ESPCN-SR/model_epoch_12.pth
+/ESPCN-SR/model_epoch_11.pth
+/ESPCN-SR/model_epoch_10.pth
+/ESPCN-SR/model_epoch_1.pth
+/New Text Document.txt
