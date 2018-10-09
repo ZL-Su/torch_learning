@@ -7,12 +7,14 @@ from torchvision.transforms import ToTensor
 
 import numpy as np
 
+#python super_resolve.py --input_image dataset/BSDS300/images/test/376043.jpg --model model_epoch_500.pth --output_filename out.tif
+
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch Super Res Example')
-parser.add_argument('--input_image', type=str, required=True, help='input image to use')
-parser.add_argument('--model', type=str, required=True, help='model file to use')
-parser.add_argument('--output_filename', type=str, help='where to save the output image')
-parser.add_argument('--cuda', action='store_true', help='use cuda')
+parser.add_argument('--input_image', type=str, default='dataset/yss/0000146.bmp', help='input image to use')
+parser.add_argument('--model', type=str, default='model_epoch_500.pth', help='model file to use')
+parser.add_argument('--output_filename', type=str, default='0000146.bmp', help='where to save the output image')
+parser.add_argument('--cuda', default=False, help='use cuda')
 opt = parser.parse_args()
 
 print(opt)
@@ -36,7 +38,7 @@ out_img_y = Image.fromarray(np.uint8(out_img_y[0]), mode='L')
 
 out_img_cb = cb.resize(out_img_y.size, Image.BICUBIC)
 out_img_cr = cr.resize(out_img_y.size, Image.BICUBIC)
-out_img = Image.merge('YCbCr', [out_img_y, out_img_cb, out_img_cr]).convert('RGB')
+out_img = Image.merge('YCbCr', [out_img_y, out_img_cb, out_img_cr]).convert('L')
 
 out_img.save(opt.output_filename)
 print('output image saved to ', opt.output_filename)
