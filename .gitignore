@@ -410,3 +410,11 @@ __pycache__/
 /ESPCN-SR/model_epoch_146.pth
 /ESPCN-SR/model_epoch_145.pth
 /ESPCN-SR/model_epoch_144.pth
+*.pth
+/ESPCN-SR/dataset
+/ESPCN-SR/0000000.bmp
+/ESPCN-SR/0000146.bmp
+/ESPCN-SR/spe_out.tif
+/ESPCN-SR/out.tif
+/ESPCN-SR/sr_part_1.rar
+/ESPCN-SR/sr_part_2.rar
