@@ -19,6 +19,7 @@ parser.add_argument('--lr', type=float, default=0.001, help='Learning Rate. Defa
 parser.add_argument('--cuda', default=True, help='use cuda?')
 parser.add_argument('--threads', type=int, default=8, help='number of threads for data loader to use')
 parser.add_argument('--seed', type=int, default=123, help='random seed to use. Default=123')
+
 opt = parser.parse_args()
 
 print(opt)

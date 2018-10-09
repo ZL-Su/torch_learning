@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>398eac87-c9fe-4821-92f9-b49c782d9f43</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>torch_learning.py</StartupFile>
+    <StartupFile>svm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="svm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="torch_learning.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
