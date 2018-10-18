@@ -402,3 +402,4 @@ __pycache__/
 /ESPCN-SR/model_epoch_102.pth
 /ESPCN-SR/model_epoch_101.pth
 /ESPCN-SR/model_epoch_100.pth
+*.pth
