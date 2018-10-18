@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "torch_learning", "torch_lea
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ESPCN-SR", "ESPCN-SR\ESPCN-SR.pyproj", "{775A52EF-F239-4EA0-88C0-1D794033EAB2}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleDNN", "SimpleDNN\SimpleDNN.pyproj", "{6C0429DA-2029-4A2F-AF44-87365D6AF5FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{398EAC87-C9FE-4821-92F9-B49C782D9F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{775A52EF-F239-4EA0-88C0-1D794033EAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{775A52EF-F239-4EA0-88C0-1D794033EAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0429DA-2029-4A2F-AF44-87365D6AF5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0429DA-2029-4A2F-AF44-87365D6AF5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
