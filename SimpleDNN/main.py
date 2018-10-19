@@ -133,3 +133,12 @@ def backward(sampl, predi, buf, params, net):
       grads["db" + str(idx_cur)] = db_cur
 
    return grads;
+
+def update(params, grads, net, lr):
+   for idx, layer in enumerate(net):
+      layer_idx = idx + 1
+
+      params["W" + str(layer_idx)] -= lr*grads["dW" +  str(layer_idx)]
+      params["b" + str(layer_idx)] -= lr*grads["db" +  str(layer_idx)]
+
+   return params;

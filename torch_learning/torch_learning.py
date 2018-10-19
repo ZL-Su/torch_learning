@@ -1,31 +1,23 @@
 import numpy as np
+import torch
 
-the_world_is_flat = True
-if the_world_is_flat:
-   print("Be careful not to fall off!")
+x = torch.ones(2, 2, requires_grad = True)
+print(x)
 
-squares = [1, 4, 9, 16, 25]
-print(squares)
+y = x + 2
+print(y)
 
-slice_squares = squares[-3:]
-print(slice_squares)
+y = y*y*3
+out = y.mean()
+print(y, out)
 
-x = int(input("Please enter an integer: "))
-if x < 0:
-   x = 0;
-   print('Negative changed to zero')
-elif x == 0:
-   print('Zero')
-elif x == 1:
-   print('Single')
-else:
-   print('More...')
+out.backward()
+print(x.grad)
 
-words = ['cat', 'window', 'defenestrate']
-for w in words:
-   print(w, len(w))
-for w in words[:]:
-   if(len(w) > 6):
-      words.insert(0, w)
+x = torch.randn(3, requires_grad=True)
 
-print(words)
+y = x*2
+while y.data.norm() < 1000:
+   y = y*2
+
+print(y)
