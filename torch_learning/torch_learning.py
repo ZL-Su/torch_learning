@@ -20,4 +20,7 @@ y = x*2
 while y.data.norm() < 1000:
    y = y*2
 
-print(y)
+grad = torch.tensor([0.1, 1.0, 0.0001], dtype = torch.float)
+y.backward(grad)
+
+print(x.grad)
