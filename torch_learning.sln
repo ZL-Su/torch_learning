@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleDNN", "SimpleDNN\Simp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtorch", "libtorch\libtorch.vcxproj", "{BFFB5646-5CCD-4A13-AAC6-794C2C2FF78B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Smock_recognition", "Smock_recognition\Smock_recognition.pyproj", "{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,12 @@ Global
 		{BFFB5646-5CCD-4A13-AAC6-794C2C2FF78B}.Release|x64.ActiveCfg = Release|x64
 		{BFFB5646-5CCD-4A13-AAC6-794C2C2FF78B}.Release|x64.Build.0 = Release|x64
 		{BFFB5646-5CCD-4A13-AAC6-794C2C2FF78B}.Release|x86.ActiveCfg = Release|x64
+		{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}.Release|x64.ActiveCfg = Release|Any CPU
+		{9940E4F2-12F0-44CF-9D0B-4D302F9E513C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
