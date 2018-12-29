@@ -24,6 +24,9 @@
     <Compile Include="dataset.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="models.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="network.py">
       <SubType>Code</SubType>
     </Compile>

@@ -405,3 +405,4 @@ __pycache__/
 *.pth
 /ESPCN-SR/dataset/Speckles
 /libtorch/My Advisor Results - libtorch
+/Smock_recognition/data
