@@ -28,7 +28,7 @@ if __name__ == "__main__":
    imshow(tvutils.make_grid(images))
    print(' '.join('%5s' % dataset.classes[labels[j]] for j in range(dataset.nclasses)))
 
-   model = get_model(True)
+   model = get_model(is_train=False)
 
    for N in range(5):
       dataitr = iter(dataset.testloader)

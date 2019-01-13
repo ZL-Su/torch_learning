@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c0429da-2029-4a2f-af44-87365d6af5fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>CNN_Numpy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="activations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CNN_Numpy.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py">

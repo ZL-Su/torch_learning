@@ -46,9 +46,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\SciR\Source\Repos\libtorch\include\torch\csrc;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\SciR\Source\Repos\libtorch\lib;$(LibraryPath)</LibraryPath>
-    <SourcePath>E:\SciR\Source\Repos\libtorch\include\ATen;E:\SciR\Source\Repos\libtorch\include\c10;E:\SciR\Source\Repos\libtorch\include\caffe2;E:\SciR\Source\Repos\libtorch\include\include;E:\SciR\Source\Repos\libtorch\include\torch\csrc;E:\SciR\Source\Repos\libtorch\include\torch\csrc\api\include\torch;$(SourcePath)</SourcePath>
+    <IncludePath>E:\SciR\Source\Repos\libtorch_cpu\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\SciR\Source\Repos\libtorch_cpu\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>E:\SciR\Source\Repos\libtorch_cpu\include\ATen;E:\SciR\Source\Repos\libtorch_cpu\include\c10;E:\SciR\Source\Repos\libtorch_cpu\include\caffe2;E:\SciR\Source\Repos\libtorch_cpu\include\include;E:\SciR\Source\Repos\libtorch_cpu\include\torch\csrc;E:\SciR\Source\Repos\libtorch_cpu\include\torch\csrc\api\include\torch;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -58,9 +58,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
