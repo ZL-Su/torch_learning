@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import trainer
+import torch
 import torchvision.utils as tvutils
 from trainer import dataset
 
@@ -16,11 +17,16 @@ def get_model(is_train=False):
    if is_train == True:
       model = trainer.train(8)
       dataset.torch.save(model, './model/model.pt')
+      torch.jit.trace(net, torch.rand(1,3,256,256)).save('./model/graph.pt')
       return model;
    if is_train == False:
       model = dataset.torch.load('./model/model.pt')
       model.eval()
       return model;
+
+def to_traced(net):
+   return torch.jit.trace(net, torch.rand(1,3,256,256))
+
 
 if __name__ == "__main__":
    dataitr = iter(dataset.trainloader)
