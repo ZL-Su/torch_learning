@@ -1,5 +1,5 @@
 /****************************************************/
-///   <copyright> 2019 Zhilong Su </copyright>
+///   <copyright> 2019-2020 ZL Su </copyright>
 /****************************************************/
 #include "../include/dgelom_net.h"
 #include "lic/dgelom_license.h"
