@@ -7,7 +7,7 @@
 #include <opencv2\core\cuda.hpp>
 #include <opencv2\xfeatures2d.hpp>
 
-namespace fs = std::experimental::filesystem;
+namespace fs = std::filesystem;
 
 auto main() -> int {
 	const auto _Wpath = fs::absolute(fs::current_path()).parent_path().string();
