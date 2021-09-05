@@ -407,3 +407,5 @@ __pycache__/
 /libtorch/My Advisor Results - libtorch
 /Smock_recognition/data
 /libtorch/data
+*.advixeexp
+*.advixeproj
